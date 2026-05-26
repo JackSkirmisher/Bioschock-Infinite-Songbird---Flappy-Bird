@@ -173,7 +173,7 @@ function update() {
     if (child && child.columnNumber === 49 && child.x < 100) {
        topColumns.setVelocityX(0);
        bottomColumns.setVelocityX(0);
-       messageToPlayer.text = `Congrats! You conquered Columbia!`;
+       messageToPlayer.text = `You are free now`;
     }
   });
 }
